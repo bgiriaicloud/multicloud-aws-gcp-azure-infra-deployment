@@ -2,6 +2,8 @@
 
 This document describes the architecture for the multi-cloud infrastructure deployment across AWS, Azure, and GCP.
 
+![Multi-Cloud Architecture](multi_cloud_architecture.png)
+
 ## Architecture Components
 
 ### AWS Architecture

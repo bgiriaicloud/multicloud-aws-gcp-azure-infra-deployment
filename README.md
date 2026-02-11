@@ -4,9 +4,11 @@ This repository contains modularized Terraform code for deploying a comprehensiv
 
 ---
 
-## 🏗️ Architecture Overview
+### 🏗️ Architecture Overview
 
 The project implements a secure, multi-tier architecture across all three major cloud providers.
+
+![Multi-Cloud Architecture](architecture/multi_cloud_architecture.png)
 
 ### 🌟 Key Features
 - **Security First**: All compute and database resources are deployed in **Private Subnets**. Only Load Balancers are public-facing.
