@@ -1,0 +1,19 @@
+# --- AWS Configuration ---
+aws_region    = "us-east-1"
+aws_ami_id    = "ami-0c55b159cbfafe1f0" # Replace with valid regional Ubuntu AMI
+aws_alb_sg_id = "sg-xxxxxx"              # Pre-created SG for ALB
+aws_ec2_sg_id = "sg-yyyyyy"              # Pre-created SG for EC2
+aws_db_sg_id  = "sg-zzzzzz"              # Pre-created SG for RDS
+
+# --- Azure Configuration ---
+azure_rg_name  = "multi-cloud-resource-group"
+azure_location = "East US"
+ssh_public_key = "ssh-rsa AAAAB3Nza... user@machine" # Your public key
+
+# --- GCP Configuration ---
+gcp_project_id = "your-gcp-project-id"
+gcp_region     = "us-central1"
+gcp_zone       = "us-central1-a"
+
+# --- Database & Secrets ---
+db_password = "SecurePassword123!"
